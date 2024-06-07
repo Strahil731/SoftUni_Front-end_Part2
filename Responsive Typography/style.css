@@ -85,3 +85,70 @@ body {
     font-size: 17px;
     margin: 5px;
 }
+
+.four {
+    margin: 5px 0 20px 20px;
+    list-style-type: decimal;
+}
+
+.four li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.tableInfo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tableInfo td,
+.tableInfo th {
+    border: 1px solid darkgray;
+    padding: 8px;
+}
+
+.tableInfo tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.tableInfo th {
+    margin: 5px;
+    padding: 12px 5px;
+    text-align: left;
+    background-color: darkgray;
+    color: black;
+}
+
+.plusContainer {
+    margin: 20px;
+    border-left: 4px solid lightgray;
+}
+
+.plusContainer p {
+    padding: 5px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.plusContainer .author {
+    text-align: right;
+    font-style: italic;
+}
+
+.footerContainer {
+    margin: 10px 0 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 800px) {
+    .containerAll {
+        width: 100%;
+    }
+}
