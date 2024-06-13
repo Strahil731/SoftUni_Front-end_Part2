@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    margin: 40px auto;
+    display: block;
+}
+
+.container h2 {
+    margin: 30px;
+    padding: 20px 0 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid lightgray;
+    width: 10%;
+}
+
+.login_form label {
+    margin: 10px 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.login_form .stars {
+    margin-left: 10px;
+    color: tomato;
+}
+
+.login_form .fa-envelope {
+    padding-left: 240px;
+}
+
+.login_form .fa-key {
+    padding-left: 210px;
+}
+
+.login_form input {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.login_form .send_info {
+    width: 70%;
+    margin: 20px 50px 40px 70px;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .container h2 {
+        border-bottom: 1px solid lightgray;
+        width: 30%;
+    }
+
+    .login_form label {
+        margin: 10px 50px;
+    }
+
+    .login_form .fa-envelope {
+        padding-left: 140px;
+    }
+
+    .login_form .fa-key {
+        padding-left: 110px;
+    }
+
+    .login_form .send_info {
+        margin-left: 50px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container h2 {
+        border-bottom: 1px solid lightgray;
+        width: 30%;
+    }
+
+    .login_form label {
+        margin: 10px 30px;
+    }
+
+    .login_form .fa-envelope {
+        padding-left: 90px;
+    }
+
+    .login_form .fa-key {
+        padding-left: 60px;
+    }
+
+    .login_form .send_info {
+        margin-left: 30px;
+        width: 75%;
+    }
+}
