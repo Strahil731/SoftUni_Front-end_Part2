@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    box-shadow: 2px 3px 2px #B0B0B0;
+}
+
+.container .input_name{
+    width: 20%;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #EAEAEA;
+    border: 1px solid lightgray;
+}
+
+.container .input_email{
+    width: 60%;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #EAEAEA;
+    border: 1px solid lightgray;
+}
+
+.container button{
+    width: 20%;
+    background-color: #F59761;
+    color: white;
+    border: 1px solid lightgray;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 80%;
+        margin-left: 60px;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .container .input_name{
+        width: 30%;
+        margin: 0 2px;
+    }
+
+    .container .input_email{
+        width: 67%;
+        margin: 0 2px;
+    }
+
+    .container button{
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .container{
+        width: 80%;
+        margin-left: 40px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .container .input_name{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container .input_email{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
