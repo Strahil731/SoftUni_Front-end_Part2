@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+
+.navigationBar {
+    width: 100%;
+    background-color: lightskyblue;
+    padding-top: 20px;
+}
+
+.navigationBar ul {
+    margin-left: 20px;
+    width: 25%;
+    display: flex;
+    border-top: 2px dashed gray;
+}
+
+.navigationBar ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 3px;
+}
+
+.navigationBar ul li a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.first_body_section {
+    display: block;
+    padding: 20px;
+}
+
+.first_section {
+    display: flex;
+}
+
+.first_body_section img {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.first_body_section h3 {
+    margin: 10px 0 30px 10px;
+    padding-top: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.first_body_section h1 {
+    margin: 10px 0 30px 10px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first_body_section p {
+    margin: 10px 0 0 10px;
+    padding-top: 20px;
+}
+
+.first_body_section #more {
+    display: none;
+}
+
+.first_body_section .myBtn {
+    margin: 10px 0 0 10px;
+    background-color: gainsboro;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.first_body_section .author {
+    margin: 30px 0 0 10px;
+    padding-top: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
