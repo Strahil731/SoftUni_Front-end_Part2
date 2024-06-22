@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./images/poster.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    min-height: 12vh;
+    min-width: 100%;
+    z-index: 10;
+}
+
+header .navigation .logo {
+    margin-left: 20px;
+}
+
+header .navigation .logo img {
+    width: 80px;
+    height: auto;
+}
+
+header .navigation .menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: auto 20px auto 0;
+}
+
+header .menu_list li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+.intro_section {
+    height: 100vh;
+    position: relative;
+}
+
+.intro_section .intro_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 0;
+}
+
+.intro_section .intro_content h1 {
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 90px;
+}
+
+.intro_section .intro_content p {
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.body_container_one h3 {
+    width: 50%;
+    margin: 30px auto 50px auto;
+    color: gray;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.body_container_one h2 {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 30px auto;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+}
+
+.body_container_two {
+    margin: 60px 0;
+    padding: 60px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+.body_container_two h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.body_container_two p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    width: 20%;
+    margin: 10px auto;
+    line-height: 30px;
+}
+
+.body_container_three img {
+    margin-left: 500px;
+    width: 480px;
+    height: auto;
+}
+
+.body_container_three h2 {
+    width: 20%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-size: 2em;
+}
+
+.body_container_three p {
+    width: 30%;
+    margin: 20px auto;
+    line-height: 16px;
+    text-align: left;
+    font-family: "Karla", sans-serif;
+}
+
+.body_container_three .readMore {
+    width: 10%;
+    margin-left: 510px;
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.body_container_three .readAll {
+    width: 10%;
+    padding: 10px;
+    margin-left: 680px;
+    margin-top: 50px;
+}
+
+.footer_container{
+    margin-top: 40px;
+    background-color: #4E4E4E;
+    width: 100%;
+    padding: 20px 0 30px 80px;
+}
+
+.footer_container img{
+    width: 60px;
+    height: auto;
+}
+
+.footer_container .text{
+    width: 30%;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Karla", sans-serif;
+}
+
+.footer_container p{
+    color: gray;
+}
