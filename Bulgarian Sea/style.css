@@ -189,14 +189,3 @@ header p {
         margin: -5px;
     }
 }
-
-@media screen and (max-width: 800px) {
-    body {
-        width: 160%;
-        margin-left: -10px;
-    }
-    
-    .second_body-conatainer .section_container img {
-        margin-left: -20px;
-    }
-}
