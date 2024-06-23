@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    min-height: 4vh;
+    min-width: 100%;
+    z-index: 10;
+}
+
+header .navigation .logo {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+header .navigation .logo img {
+    width: 80px;
+    height: auto;
+}
+
+header .navigation .menu_item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 10px 20px;
+}
+
+header .menu_item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.35em;
+}
+
+.body_container {
+    width: 100%;
+    background: url("./images/music.png"), linear-gradient(to bottom, #1DB853FF 50%, white 50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 30px;
+}
+
+.body_container h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.section_container{
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_container{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    background-color: white;
+}
+
+.first_container h1{
+    color: #505362FF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    margin: 30px;
+}
+
+.body_list{
+    list-style: circle;
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 1.25em;
+    color: #7C7C7C;
+}
+
+.body_list_one{
+    list-style: circle;
+    padding-left: 50px;
+    line-height: 25px;
+    font-size: 1.20em;
+    color: #7C7C7C;
+}
+
+.myBtn{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1DB853FF;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.price_container{
+    width: 100%;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.price_container .first{
+    color: white;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.price_container h3{
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+}
+
+.price_container_one{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.second_body_container{
+    width: 100%;
+    margin: 80px auto 20px auto;
+    padding-left: 80px;
+    display: flex;
+}
+
+.second_body_container .text_container{
+    width: 60%;
+    line-height: 20px;
+    font-size: 1.15em;
+}
+
+.second_body_container .text_container h4{
+    font-size: 1.25em;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.second_body_container .text_container ol li{
+    width: 85%;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.second_body_container .image_container{
+    width: 40%;
+}
+
+.second_body_container .image_container img{
+    width: 360px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px 0 40px;
+}
+
+.last_body_container{
+    width: 100%;
+    margin: 80px auto;
+}
+
+.last_body_container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+}
+
+.last_body_container p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.customers{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.customers td{
+    padding: 8px;
+}
+
+.customers tr{
+    background-color: #C9C9C9FF;
+}
+
+.customers tr:nth-child(even){
+    background-color: #80D6A0FF;
+}
+
+.footer_container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer_container p{
+    padding: 10px;
+}
